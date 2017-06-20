@@ -1,0 +1,304 @@
+/*-----------------Primer interactivos-------------------------------------*/
+@import url("M_G06_U01_L01_03.css");
+
+.flechaAtras {
+    margin-left: 54%;
+    margin-top: 7%;
+    cursor: pointer;
+    background: #312a7f;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    padding: 5px;
+    border-radius: 3px;
+}
+.ajuste {
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+.fondoSistema {
+    background-image: url(../img/fondoSistema.png);
+    background-repeat: no-repeat;
+    background-size: 101% 100%;
+    width: 97%;
+    height: 678px;
+    background-position-x: 40px;
+}
+.tituloSistema {
+    background-image: url(../img/tituloSistema.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 467px;
+    height: 80px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 9.3%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.estudiante {
+    background-image: url(../img/IL_M_G06_U01_L01_03_01_01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    width: 186px;
+    height: 538px;
+    margin-top: 6.5%;
+    margin-left: 69%;
+    position: absolute;
+}
+
+.tituloSistema div {
+    font-size: 30px;
+    line-height: 65px;
+    color: #fefefe;
+    text-shadow:1px 2px #292421;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+.tituloSistema img {
+    width: 44px;
+    height: 49px;
+    position: absolute;
+    right: 38px;
+    display: inline-block;
+    top: 16px;
+}
+
+.contenedorGeneralSistema {
+    margin-top: 2%;
+    padding-left: 4.5%;
+    display: inline-block;
+    width: 75%;
+}
+
+.contenedorSistema {
+width: 220px;
+    height: 190px;
+    background-color: #312a7f;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.contenedorSistema img {
+    margin: 16px 13px;
+    width: 193px;
+    height: 159px;
+}
+
+.txtConcepto {
+font-family: 'Open Sans', sans-serif!important;
+    height: 100%;
+    width: 98%;
+    background-color: #fff;
+    border: 0px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 39px;
+    line-height: 80px;
+    text-align: center;
+    color: #6e6e6e;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.txtConcepto div {
+    padding: 8% 0%;
+}
+
+.conceptoSistema {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 60px;
+    line-height: 48px;
+    width: 735px;
+    height: 490px;
+    background-color: #e7b041;
+    border-right: 2px solid #e7b041;
+    position: absolute;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    display: inline-block;
+    top:17%;
+    left: 10%;
+    z-index: 2;
+}
+
+.conceptoSistema:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 18%;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-left: 55px solid #e7b041;
+    border-bottom: 45px solid transparent;
+}
+/*-------------------------Termina primer interactivo-----------------------------------*/
+
+
+
+
+
+.title-page {
+  position: absolute;
+  top: 28px;
+  width: 100%;
+  margin-left: -4%;
+  background: #f7f7f7;
+  border: none;
+}
+
+.BA-container-info {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.BA-container-info__icon {
+  display: inline-block;
+  width: 15%;
+}
+
+.BA-container-info__text {
+  display: inline-block;
+  width: 85%;
+  color: #000;
+  font-weight: bold;
+}
+
+.BA-content-t1 {
+  position: relative;
+  width: 90%;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url('../img/fondoEgipcio.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.BA-content-t1__container {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 12px solid #f7ebac;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 65%;
+  height: 380px;
+  overflow-y: auto;
+}
+
+.BA-content-t1__title {
+  color: #fff;
+  background-color: #a37d4d;
+  text-align: center;
+  font-size: 24px;
+  width: 90%;
+  margin: 0 auto !important;
+  border-radius: 0 0 10px 10px;
+}
+
+.BA-content-t1__list-item {
+  background: url('../img/vinetaChuloEgipcio.png') no-repeat left top;
+  background-size: 25px;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.BA-content-t1__img {
+  position: absolute;
+  right: 10px;
+}
+
+.BA-content-t1__img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.BA-content-t1__img img {
+  width: auto;
+  height: 200px;
+}
+
+.BA-content-t1__img-alt {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.BA-content-t1__img-alt-p2 {
+  background-image: url('../img/ordenSistemaEgipcio.png');
+}
+
+.BA-content-t1__img-alt-p3 {
+  background-image: url('../img/sistemaEgipcio1.png');
+}
+
+.BA-content-t1__container--alt {
+  border: none;
+}
+
+.BA-content-t1__title--alt {
+  width: 100%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #B04C41;
+  padding: 5px 130px !important;
+}
+
+.visible-content {
+  opacity: 1 !important;
+}
+
+.BA-content-t1__row {
+  position: relative;
+  margin-top: 10px;
+}
+
+.BA-content-t1__row img {
+  width: auto;
+  height: 60px;
+}
+
+.BA-content-t1__hidden {
+  position: absolute;
+  top: 4px;
+  right: 192px;
+  width: 139px;
+  height: 47px;
+  transition: opacity 0.35s ease-out;
+  background-color: #e6b041;
+  opacity: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.BA-content-t1__hidden img {
+  position: absolute;
+  top: 13px;
+  right: 55px;
+  width: auto;
+  height: 25px;
+}

@@ -1,0 +1,385 @@
+.BDA-cont {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+}
+
+.BDA-continfo {
+    position: relative;
+    width: 90%;
+    height: 517px;
+    margin: 9% auto;
+    background-image: url(../img/fondo/fondoRomano.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.BDA-cont {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+}
+
+.BDA-cont_romano {
+    background-image: url(../img/romano/IL_M_G06_U01_L01_03_03_01.png);
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+    width: 255px;
+    height: 343px;
+    position: absolute;
+    left: 77%;
+    top: 29%;
+}
+
+.BDA-cont_content {
+    text-align: left;
+    font-size: 48px;
+    line-height: 48px;
+    width: 711px;
+    height: 430px;
+    background-color: #a8b368;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: -2%;
+}
+
+.BDA-cont_box {
+    height: 100%;
+    width: 98%;
+    background-color: #fefefe;
+    border: 0px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 35px;
+    line-height: 39px;
+    text-align: left;
+    color: #575756;
+    margin: 0 auto;
+    overflow-y: scroll;
+    padding-right: 15px;
+}
+
+.BDA-cont_box .subTitulo {
+    width: 93%;
+    height: 80px;
+    background-color: #939152;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #FEFEFE;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(-50%, 0%);
+    left: 51%;
+    top: 0%;
+    position: relative;
+}
+
+.BDA-cont_box p {
+    background: url("../img/vinetaChuloRomano.png") no-repeat left top;
+    background-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.BDA-cont_content_bocadillo {
+        text-align: left;
+    font-size: 48px;
+    line-height: 48px;
+    width: 815px;
+    height: 463px;
+    background-image: url(../img/romano/bocadilloRomano.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-left: 5.5%;
+    margin-bottom: -2%;
+}
+
+
+
+.BDA-cont_content_bocadillo_text {
+        height: 422px;
+    width: 87%;
+    background-color: #fff;
+    border: 0px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: left;
+    color: #6e6e6e;
+    margin: 0% 0% 0% 1.2%;
+}
+
+    
+    .BDA-cont_content_bocadillo_text .subTitulo {
+       width: 72%;
+    height: 90px;
+    background-color: #939152;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    text-align: left;
+    color: #FEFEFE;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 0%;
+    top: 7%;
+    position: relative;
+    padding: 1% 3% 1%;
+}
+.BDA-cont_content_bocadillo_text .texto {
+	    font-size: 37px;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.BDA-con_sistemRoman1{
+	background-image: url(../img/romano/sistemaRomano1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.BDA-con_sistemRoman2{
+	background-image: url(../img/romano/sistemaRomano2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.BDA-con_sistemRoman3{
+	background-image: url(../img/romano/sistemaRomano3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.BDA-con_sistemRoman4{
+	background-image: url(../img/romano/sistemaRomano4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.BDA-con_sistemRoman5{
+	background-image: url(../img/romano/sistemaRomano5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.BDA-con_sistemRoman6{
+	background-image: url(../img/romano/sistemaRomano6.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+    .BDA-cont_conver{
+    text-align: left;
+    font-size: 48px;
+    line-height: 48px;
+    width: 770px;
+    height: 460px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: -2%;
+
+}
+
+    .BDA-cony-numerR{
+    	background-image: url(../img/romano/contNumeroRomano.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #747b3f;
+    font-family: "cabinbold" !important;
+    font-size: 61px;
+    line-height: 110px;
+    text-align: center;
+    width: 296px;
+    height: 112px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 3%;
+    position: absolute;
+	
+}
+
+/*TABLAS CON CONVERSION DE NUMEROS*/
+.BDA-contenedorGeneralConversion {
+    text-align: left;
+    font-family: 'alegreya_sansmedium';
+    font-size: 48px;
+    line-height: 48px;
+    width: 770px;
+    height: 472px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: -2%;
+}
+.BDA-contenedorGeneralConversion .filaInicio {
+	position: relative;
+	margin-top: 0%;
+}
+.BDA-contenedorGeneralConversion .fila {
+	position: relative;
+	margin-top: 1%;
+}
+/*SIGNO IGUAL*/
+.BDA-signoIgualRomano {
+	background-image: url(../img/romano/signoIgualRomano.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 57px;
+	height: 40px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 45.5%;
+	margin-top: 4%;
+}
+/*CONTENEDORES COLUMNA 1*/
+.BDA-contNumeroRomano {
+	  background-image: url(../img/romano/contNumeroRomano.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #747b3f;
+    font-family: "cabinbold" !important;
+    font-size: 61px;
+    line-height: 88px;
+    text-align: center;
+    width: 269px;
+    height: 93px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 3%;
+    position: absolute;
+}
+.BDA-contNumeroRomano span {
+	margin-left: -3%;
+}
+/*FIN_CONTENEDORES COLUMNA 1*/
+
+/*CONTENEDORES COLUMNA 2*/
+.BDA-contNumeroRespuestaRomano {
+	background-image: url(../img/romano/contNumeroRespuestaRomano.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fefefe;
+	text-align: center;
+	width: 269px;
+	height: 93px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 0%;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	margin-left: 58%;
+	border: 0px;
+	margin-bottom: 0.9%;
+}
+.BDA-contNumeroRespuestaRomanoClick {
+	background-image: url(../img/romano/contNumeroRespuestaRomanoClick.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 269px;
+    height: 93px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 0%;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin-left: 58%;
+    border: 0px;
+	
+}
+
+.BDA-contNumeroRespuesta1{
+	color: #fefefe;  
+    font-size: 47px;
+    line-height: 88px;
+    text-align: center;
+}
+
+.BDA-contNumeroRespuesta2{
+color: #fefefe;  
+    font-size: 47px;
+     line-height: 88px;
+    text-align: center;
+}
+}
+
+.BDA-contNumeroRespuesta3{
+	color: #fefefe;  
+    font-size: 47px;
+    line-height: 88px;
+    text-align: center;
+}
+	}
+
+/* FIN_CONTENEDORES COLUMNA 2*/

@@ -1,0 +1,948 @@
+.title-page {
+  position: absolute;
+  top: 28px;
+  width: 100%;
+  margin-left: -4%;
+  background: #f7f7f7;
+  border: none;
+}
+
+.BA-container-info {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.BA-container-info__icon {
+  display: inline-block;
+  width: 15%;
+}
+
+.BA-container-info__text {
+  display: inline-block;
+  width: 85%;
+  color: #000;
+  font-weight: bold;
+}
+
+.BA-content-t1 {
+  position: relative;
+  width: 90%;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.BA-content-t1__girl,
+.BA-content-t1__quotes,
+.BA-content-t1__exercise,
+.BA-content-t1__instruction,
+.BA-content-t1__paragraph {
+  position: absolute;
+}
+
+.BA-content-t1__girl {
+  bottom: 0;
+  width: auto !important;
+  height: 400px;
+}
+
+.BA-content-t1__quotes {
+  right: 0;
+  width: auto !important;
+  height: 460px;
+}
+
+.BA-content-t1__exercise {
+  color: #fff;
+  top: 8px;
+  left: 26%;
+  font-weight: bolder;
+}
+
+.BA-content-t1__instruction {
+  top: 50px;
+  right: 40px;
+  color: #fff;
+}
+
+.BA-content-t1__paragraph {
+  width: 40%;
+  right: 40px;
+  top: 110px;
+  font-size: 26px !important;
+}
+
+.BA-content-t1__box-red {
+  background-color: #CD5B40;
+  width: 994px;
+  height: 100px;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.BA-content-t1__box-container {
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  width: 1024px;
+  height: 284px;
+  border-radius: 10px;
+  box-shadow: -6px 3px 9px -2px #575756;
+  background-color: #F5F5F5;
+  z-index: 2;
+}
+
+.BA-content-t1__box-title {
+  color: #575756;
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.BA-content-t1__box-info {
+  position: absolute;
+  left: 12%;
+  top: 55%;
+  width: 776px;
+  height: 95px;
+  background-color: #ECE5D7;
+  border-radius: 10px;
+  box-shadow: 5px 6px 0px 1px #CD5B40;
+  font-size: 68px;
+  font-weight: bolder;
+  line-height: 86px;
+  letter-spacing: 0;
+  color: #CD5B40;
+  text-align: center;
+}
+
+.BA-content-t1__box-title span {
+  color: #CD5B40;
+}
+
+.visible-content {
+  opacity: 1 !important;
+}
+
+.BA-content-t1__hidden {
+  position: absolute;
+  top: 156px;
+  right: 126px;
+  width: 770px;
+  height: 90px;
+  transition: opacity 0.35s ease-out;
+  background-color: #ece5d7;
+  opacity: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.BA-content-t1__hidden img {
+  position: absolute;
+  top: 25px;
+  right: 370px;
+  width: auto;
+  height: 50px;
+}
+
+/**** Customizing *****/
+
+.cntGeneralSistema {
+    width: 102%;
+    margin: 0 auto;
+}
+
+.cntGeneralSistema > div {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+
+.headerSistemaL {
+    width: 371px;
+    height: 60px;
+    background-color: #85b6c6;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: 2px 6px 0px -2px #c4c4c4;
+    -moz-box-shadow: 2px 6px 0px -2px #c4c4c4;
+    box-shadow: 2px 6px 0px -2px #c4c4c4;
+}
+
+.headerSistemaR {
+    width: 371px;
+    height: 60px;
+    background-color: #85b6c6;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: -2px 6px 0px -2px #c4c4c4;
+    -moz-box-shadow: -2px 6px 0px -2px #c4c4c4;
+    box-shadow: -2px 6px 0px -2px #c4c4c4;
+}
+
+.tituloHeaderSistema {
+    font-size: 36px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    line-height: 36px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+
+/*1*/
+
+.bocadilloL1:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 48px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #85b6c6 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloL1:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 53px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR1:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #85b6c6 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR1:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+
+/*2*/
+
+.bocadilloL2:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 48px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #9fbd5e transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloL2:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 53px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR2:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #9fbd5e transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR2:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+
+/*3*/
+
+.bocadilloL3:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 48px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #d78360 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloL3:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 53px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR3:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #d78360 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.bocadilloR3:before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 316px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #c4c4c4 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.areaSistema {
+    width: 371px;
+    height: 122px;
+    background-color: #FEFEFE;
+    position: relative;
+    margin-top: -4px;
+    z-index: 1;
+}
+
+.areaSistema .numero {
+    font-size: 37px;
+    color: #86858A;
+    letter-spacing: 0;
+    line-height: 48px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.sistemaEgipcio {
+    background-image: url(../img/numeroNatural/sistemaEgipcio.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 186px;
+    height: 36px;
+}
+
+.clickBtn5 {
+    background-image: url(../img/click/clickBtn5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 42px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.sistemaMaya {
+    background-image: url(../img/numeroNatural/sistemaMaya.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 131px;
+    height: 102px;
+}
+
+.pregunta {
+    width: 1025px;
+    height: 62px;
+    background-color: #a9cfc2;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.pregunta div {
+    font-size: 35px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.circuloBtn {
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 3%;
+    top: 51%;
+    -moz-box-shadow: -2px 13px 0px -6px #67a4a7;
+    -webkit-box-shadow: -2px 13px 0px -6px #67a4a7;
+    box-shadow: -2px 13px 0px -6px #67a4a7;
+    background-color: #ECE5D7;
+    color: #ca4f23;
+    font-size: 76px;
+    letter-spacing: 0;
+    line-height: 120px;
+}
+
+.cntOperacion4 {
+    background-image: url(../img/numeroNatural/cntOperacion4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1040px;
+    height: 78px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.cntOperacion4 .numeroOculto {
+    font-size: 35px;
+    color: #6E6E6E;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 36px;
+    position: absolute;
+    left: 11%;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+
+.cntOperacion4 .clickBtn4 {
+    background-image: url(../img/click/clickBtn4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48.21px;
+    height: 53.4px;
+    position: absolute;
+    left: 2.2%;
+    top: 18%;
+}
+
+.explicacionEnunciado {
+    font-size: 30px;
+    color: #6E6E6E;
+    margin: 2% 0 0 3%;
+    letter-spacing: -0.5px;
+}
+
+.BDA-container-info {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+.BDA-container-info__icon {
+    display: inline-block;
+    width: 15%;
+}
+
+.BDA-container-info__text {
+    display: inline-block;
+    width: 85%;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*2*/
+
+.cnt1 {
+    background-image: url(../img/cnt1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 972px;
+    height: 477px;
+    position: relative;
+    margin: 3% auto 0 auto;
+}
+
+.cntOperacion {
+       background-image: url(../img/cntOperacion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1104px;
+    height: 118px;
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+.cntOperacion .numero {
+    font-size: 50px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    line-height: 55px;
+    left: 4%;
+    top: 27%;
+    position: absolute;
+}
+
+.cntOperacion .numeroOculto {
+    font-size: 35px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    color: #756959;
+}
+
+.cntOperacion2 {
+    background-image: url(../img/cntOperacion2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1064px;
+    height: 93px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.cntOperacion2 .numeroOculto {
+    font-size: 35px;
+    color: #6E6E6E;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 36px;
+    position: absolute;
+    left: 11%;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+
+.clickBtn2 {
+    background-image: url(../img/click/clickBtn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48.21px;
+    height: 53.4px;
+    position: absolute;
+    left: 2.5%;
+    top: 27%;
+}
+
+.cntOperacion3_1 {
+    background-image: url(../img/polinomio/cntOperacion3_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 323.5px;
+    height: 85.5px;
+    position: relative;
+        margin-bottom: 24px;
+}
+
+.cntOperacion4_1 {
+    background-image: url(../img/polinomio/cntOperacion4_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 323.5px;
+    height: 85.5px;
+    position: relative;
+        margin-bottom: 24px;
+}
+
+.cntOperacion5_1 {
+    background-image: url(../img/polinomio/cntOperacion5_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 323.5px;
+    height: 85.5px;
+    position: relative;
+        margin-bottom: 24px;
+}
+
+.cntOperacion6_1 {
+    background-image: url(../img/polinomio/cntOperacion6_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 323.5px;
+  height: 85.5px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.cntOperacion3_2 {
+    background-image: url(../img/polinomio/cntOperacion3_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 676.66px;
+    height: 85.5px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.cntOperacion4_2 {
+    background-image: url(../img/polinomio/cntOperacion4_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 676.66px;
+    height: 85.5px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.cntOperacion5_2 {
+    background-image: url(../img/polinomio/cntOperacion5_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 676.66px;
+    height: 85.5px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.cntOperacion6_2 {
+    background-image: url(../img/polinomio/cntOperacion6_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 676.66px;
+    height: 85.5px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.numeroOculto2 {
+    font-size: 21px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 0px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #868585;
+
+}
+
+.cntGeneralOperacion {
+    display: inline-block;
+    position: relative;
+    left: 8.5%;
+    margin: 3.5% auto 0 auto;
+}
+
+.cntGeneralOperacion div {
+    display: inline-block;
+}
+
+.tituloEnunciado {
+    color: #575756;
+    font-size: 35px;
+    position: relative;
+    left: 6%;
+    padding-top: 2%;
+    line-height: 40px;
+    padding-bottom: 0%;
+}
+
+.clickNumero2 {
+    background-image: url(../img/click/clickBtn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 45.33px;
+    height: 51.6px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.cntOperacion .numero {
+    font-size: 50px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    line-height: 55px;
+    left: 4%;
+    top: 27%;
+    position: absolute;
+}
+
+.cntOperacion2 {
+    background-image: url(../img/cntOperacion2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1064px;
+    height: 77px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.cntOperacion2 .numeroOculto {
+    font-size: 25px;
+    color: #6E6E6E;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 27px;
+    position: absolute;
+    left: 11%;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+.clickBtn2 {
+    background-image: url(../img/click/clickBtn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48.21px;
+    height: 53.4px;
+    position: absolute;
+    left: 2.5%;
+    top: 27%;
+}
+
+
+.numeroOculto2 {
+    font-size: 35px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 52px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #868585;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+
+.cntGeneralOperacion {
+    display: inline-block;
+    position: relative;
+    left: 8.5%;
+    margin: 3.5% auto 0 auto;
+}
+
+.cntGeneralOperacion div {
+    display: inline-block;
+}
+
+.tituloEnunciado {
+    color: #575756;
+    font-size: 35px;
+    position: relative;
+    left: 6%;
+    padding-top: 2%;
+    line-height: 40px;
+    padding-bottom: 0%;
+}
+
+.tituloOperacionBorder {
+    background-color: #CD5B40;
+    width: 96.5%;
+    height: 76%;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0 auto;
+    border-left: 3px dashed #FEFEFE;
+    font-size: 35px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 55px;
+    border-right: 3px dashed #FEFEFE;
+    border-bottom: 3px dashed #FEFEFE;
+}
+
+.clickBtn2 {
+    background-image: url(../img/click/clickBtn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48.21px;
+    height: 53.4px;
+    position: absolute;
+    left: 2.5%;
+    top: 27%;
+}
+
+.flechaNumero {
+    background-image: url(../img/flechaNumero.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 45.5px;
+    height: 55px;
+    position: absolute;
+    left: 3%;
+    top: 17%;
+}
+
+.BDA-container-info {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+.BDA-container-info__icon {
+    display: inline-block;
+    width: 15%;
+}
+
+.BDA-container-info__text {
+    display: inline-block;
+    width: 85%;
+    color: #000;
+    font-weight: bold;
+}
+
+.tituloOperacion {
+    background-color: #CD5B40;
+    width: 1175px;
+    height: 72px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0 auto;
+}
+
+.tituloOperacionBorder {
+    background-color: #CD5B40;
+    width: 96.5%;
+    height: 76%;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0 auto;
+    border-left: 3px dashed #FEFEFE;
+    font-size: 35px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 55px;
+    border-right: 3px dashed #FEFEFE;
+    border-bottom: 3px dashed #FEFEFE;
+}
+
+.pregunta {
+    width: 1025px;
+    height: 50px;
+    background-color: #a9cfc2;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.pregunta div {
+    font-size: 27px;
+    color: #FEFEFE;
+    letter-spacing: 0;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}

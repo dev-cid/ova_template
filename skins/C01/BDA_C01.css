@@ -1,0 +1,138 @@
+.ipt_header { 
+    /*Aquí ya no va nada porque el header será blanco para todos*/
+}
+.ipt_contenido {
+    border-color:#ffffff;
+}
+.ipt_contenido h1 span {
+    background: #5b2c37;
+}
+[data-sg-id="item-popup"] {
+    border-color: #5b2c37;
+}
+[data-sg-id="btn-popup-close"] {
+
+}
+[data-sg-id="item-popup"] h1 {
+    background-color: #5b2c37;
+    text-align: center;
+}
+[data-sg-id="item-popup"] .pop-cont {
+
+}
+button {
+    background-color: #c3c3c3;
+}
+
+button:hover{
+    background-color:#000;
+}
+
+.bb-nav-circle {
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+.bb-nav-prev{
+    background-image: url('img/btn_atras.png');
+}
+.bb-nav-next{
+    background-image: url('img/btn_siguiente.png');
+}
+
+.bb-nav-circle div {
+border: 0px;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    font-size: 33px;
+    height: 52px;
+    line-height: 45px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+    text-shadow: 0 0px 0 #000;
+    width: 52px;
+}
+
+.nav_infografias span:first-child{
+    background: #5b2c37;
+}
+
+.nav_infografias span{
+    border: 1px solid #5b2c37;
+}
+
+
+a.external-link:hover {
+    background-color: #5b2c37;    
+}
+
+/*Código nuevo*/
+
+.ipt_header .title1 {
+color: #fff;
+    background: #C61C1A;
+    padding-bottom: 14px;
+    padding-left: 36px;
+    border-radius: 0px 90px 0px 62px;
+}
+.intro_ico {
+    background-image: url('img/intro_ico.png');    
+}
+.intro_ico2{
+    background-image: url(img/intro_ico2.png);
+}
+.titulo{
+    color:#000;
+}
+
+
+/*--Iconos span niveles--*/
+
+.intro_ico_indicador_uno{
+    background-image: url(img/icon-principal.png);
+    float: right;
+    width: 44px;
+    margin: 0px 0.5% 20px 5px;
+}
+.intro_ico_indicador_dos{
+    background-image: url(img/icon-complementario.png);
+    float: right;
+    width: 44px;
+    margin: 0px 0.5% 20px 5px;
+}
+
+.intro_ico_indicador_tres{
+    background-image: url(img/icon-opcional.png);
+    float: right;
+    width: 44px;
+    margin: 0px 0.5% 20px 5px;
+}
+
+.bannerZone {
+    background: rgba(158, 91, 106, 0.8);
+}
+
+.tab-container{margin-top:10px;}
+.tab-container .etabs { margin: 0; padding: 0; text-align:left;}
+.tab-container .etabs .tab { 
+    border: none;
+}
+.tab-container .etabs .tab a:hover { }
+.tab-container .etabs .tab.active { 
+    background: none;
+    color: #fff;
+}
+
+.border-gobernacion{
+    position: absolute;
+    z-index: 110;
+    margin-top: 0px;
+    width: 100%;
+    background-image: url(../../skins/C01/img/borde.png);
+    height: 66px;
+    background-repeat: no-repeat;
+    border-top: 4px solid #E41F1A;
+    background-position-y: 57px;
+}

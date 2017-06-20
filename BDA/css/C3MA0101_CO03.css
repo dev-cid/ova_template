@@ -1,0 +1,468 @@
+/*-------------------PAG 1------------------*/
+
+.contenedorSistemaBinario {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 38px;
+    width: 670px;
+    height: 476px;
+    background-color: #efde81;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /* margin-top: 2%; */
+    padding: 25px 25px;
+    display: inline-block;
+    margin-left: 4.75%;
+    margin-top: 2%;
+}
+
+
+/*CARACTERISTICAS SISTEMA*/
+
+.caracteristicaSistemaEgipcio {
+    font-family: 'Open Sans', sans-serif!important;
+    height: 100%;
+    width: 98%;
+    background-image: url(../img/maya/caracteristicaSistema.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 0px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #6e6e6e;
+    margin: 0 auto;
+    /*overflow:hidden;*/
+    padding-right: 15px;
+}
+
+.caracteristicaSistemaEgipcioSwap {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 98%;
+    background-color: #fefefe;
+    border: 0px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 35px;
+    line-height: 39px;
+    text-align: left;
+    color: #575756;
+    margin: 0 auto;
+    /*overflow-y: scroll;*/
+    padding-right: 15px;
+}
+
+.caracteristicaSistemaEgipcioSwap p {
+    text-indent: -15.5%;
+    margin-left: 8%;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 25px 70px;
+    color: #6E6E6E;
+}
+
+.caracteristicaSistemaEgipcioSwap .subTitulo {
+    width: 93%;
+    height: 80px;
+    background-color: #939152;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    padding-top: 23px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FEFEFE;
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(-50%, 0%);
+    left: 51%;
+    top: 0%;
+    position: relative;
+}
+
+.vinetaChulo {
+    width: 25px!important;
+    height: 27px;
+    margin-left: 10%!important;
+    margin-right: 15px!important;
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    left: -85px;
+}
+
+.einstein {
+    background-image: url(../img/IL_M_G06_U01_L01_03_13_01.png);
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+    width: 310px;
+    height: 364px;
+    position: absolute;
+    top: 34%;
+    left: 67.5%;
+}
+
+.fondoBinario {
+    background-image: url(../img/fondoBinario.png);
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+    background-position: bottom;
+    width: 97%;
+    height: 516px;
+    background-position-x: 37px;
+}
+
+
+/*-------------------PAG 2------------------*/
+
+.contenedorSistemaBinario2 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 38px;
+    width: 670px;
+    height: 476px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-left: 4.75%;
+    margin-top: 2%;
+}
+
+.contenedorSistemaBinario2 .subTitulo {
+    width: 93%;
+    height: 80px;
+    background-color: #939152;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    padding-top: 23px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FEFEFE;
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(-50%, 0%);
+    left: 51%;
+    top: 0%;
+    position: relative;
+    line-height: 19px;
+}
+
+.cntConversionBinario {
+    position: absolute;
+    left: 18.5%;
+    top: 22.5%;
+    width: 500px;
+    height: 490px;
+}
+
+.cuadroNumero {
+    width: 12%;
+    height: 11%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #747B3F;
+    color: #FEFEFE;
+    font-size: 27px;
+    line-height: 43px;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+}
+
+.cuadroNumero2 {
+    width: 10%;
+    height: 10%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #D0DA9D;
+    color: #656B34;
+    font-size: 27px;
+    line-height: 43px;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+}
+
+.circuloNumero {
+    width: 10%;
+    height: 10%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #D0DA9D;
+    color: #656B34;
+    font-size: 27px;
+    line-height: 43px;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+}
+
+.numero {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clickNumero {
+    background-image: url(../img/click_guide7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 26.5px;
+    height: 31px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cntResultado {
+    width: 373px;
+    height: 51px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #747B3F;
+    position: absolute;
+    top: 61%;
+    left: -21%;
+}
+
+.numeroResultado {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 42px;
+    width: auto;
+    font-size: 27px!important;
+    font-family: 'Open Sans', sans-serif!important;
+    background-color: #FEFEFE;
+    color: #656B34;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    line-height: 44px;
+}
+
+
+/*-------------PAG 3----------------------------*/
+.contenedorSistemaBinario3 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 38px;
+    width: 721px;
+    height: 476px;
+    background-color: #efde81;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 4.75%;
+    margin-top: 2.9%;
+}
+
+
+
+.contenedorSistemaBinario3 .subTitulo {
+    width: 100%;
+    height: 52px;
+    background-color: #939152;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0px 15px 0px;
+    margin: -20px 0 0 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif!important;
+    color: #FEFEFE;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.cntResultado2 {
+    width: 590px;
+    height: 60px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #747B3F;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+
+.cntResultado2 .numero {
+    font-size: 47px;
+    color: #fefefe;
+    top: 46%;
+    letter-spacing: 90px;
+    font-family: 'Open Sans', sans-serif!important;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedorOperacion {
+    background-image: url(../img/contenedorOperacion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 206px;
+    height: 57px;
+    position: absolute;
+}
+
+.operacionNumero {
+    font-size: 20px;
+    color: #747B3F;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.contNumero {
+    box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+}
+
+.cntNumeroBinario {
+    width: 205px;
+    height: 76px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #747B3F;
+    position: absolute;
+    color: #FEFEFE;
+    font-size: 57px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif!important;
+    line-height: 70px;
+}
+
+.contenedorOperacion2 {
+    -moz-box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    -webkit-box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #d0da9d;
+    width: 293px;
+    height: 57px;
+    position: absolute;
+}
+
+.contenedorOperacion2 .operacionNumero {
+    font-size: 36px;
+    color: #747B3F;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.clickNumero2 {
+    background-image: url(../img/click_guide8.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 39.72px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signoIgualBinario {
+    background-image: url(../img/signoIgualBinario.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 56px;
+    height: 30px;
+    position: absolute;
+}
+
+.cntPregunta {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    width: 225px;
+    height: 110px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #747B3F;
+    color: #FEFEFE;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif!important;
+    line-height: 110px;
+}
+
+.cntRespuesta {
+    -moz-box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    -webkit-box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    box-shadow: 5px 6px 1px 1px rgba(116, 123, 63, 1);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #d0da9d;
+    width: 295px;
+    height: 110px;
+    position: absolute;
+}
+
+.cntRespuesta .operacionNumero {
+    font-size: 50px;
+    color: #747B3F;
+    font-family: 'Open Sans', sans-serif!important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.clickNumero2 {
+    background-image: url(../img/click_guide7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 39.72px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
